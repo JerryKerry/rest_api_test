@@ -18,7 +18,7 @@ public class RegistrationTest extends TestBase {
 
 
     @Test
-    void successRegisterUser() {
+    void successRegisterUserTest() {
         registrationDto.setEmail("eve.holt@reqres.in");
         registrationDto.setPassword("pistol");
 
@@ -40,7 +40,7 @@ public class RegistrationTest extends TestBase {
     }
 
     @Test
-    void unsuccessLogin() {
+    void unsuccessLoginTest() {
 
         registrationDto.setEmail("asdfgfdgdfg");
 

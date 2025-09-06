@@ -11,7 +11,7 @@ import static specs.ResponseSpec.responseSpec;
 public class DeleteUserTest extends TestBase {
 
     @Test
-    void DeleteUser() {
+    void deleteUserTest() {
         RequestDeleteUserDto request = new RequestDeleteUserDto();
         request.setId(1);
         Integer id = request.getId();
