@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.*;
 public class RegistrationTest extends TestBase {
 
     @Test
-    void successRegisterUser() {
+    void successRegisterUserTest() {
         String authData = "{\"email\": \"eve.holt@reqres.in\", \"password\": \"134\"}";
 
         given()
@@ -26,7 +26,7 @@ public class RegistrationTest extends TestBase {
     }
 
     @Test
-    void unsuccessLogin() {
+    void unsuccessLoginTest() {
         String authData = "{\"email\": \"asdfgfdgdfg\"}";
 
         given()

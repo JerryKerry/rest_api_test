@@ -6,7 +6,7 @@ import static io.restassured.http.ContentType.JSON;
 public class DeleteUserTest extends TestBase{
 
     @Test
-    void DeleteUser() {
+    void deleteUserTest() {
         given()
                 .header("x-api-key", apiKey)
                 .contentType(JSON)
